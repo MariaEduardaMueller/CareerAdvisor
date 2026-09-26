@@ -55,6 +55,7 @@ Se pergunta a média salarial das vagas que exigem AWS, o sistema primeiro filtr
 
 Só depois disso o resultado é enviado para o modelo de linguagem, que transforma aquela informação em uma resposta mais natural.
 
+
 ---
 
 ## 5. O diferencial — 35 segundos
@@ -86,6 +87,8 @@ Depois desenvolvi a camada de consulta utilizando **Python e Pandas**, responsá
 Em seguida, implementei a integração com um **LLM local utilizando Ollama**, para transformar os resultados estruturados em respostas naturais.
 
 Também criei prompts com regras específicas de comportamento e desenvolvi **testes automatizados e uma avaliação determinística** para verificar se os resultados calculados pelo sistema estavam corretos.
+
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/2df32d43-ff37-420e-8f2a-bac391693eb8" />
 
 ---
 
