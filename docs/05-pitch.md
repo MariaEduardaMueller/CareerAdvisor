@@ -99,10 +99,12 @@ Na avaliação final, foram executados **14 casos de avaliação**, cobrindo con
 Além disso, os testes automatizados apresentaram **8 testes aprovados**.
 
 
-Link do vídeo o Pitch: https://drive.google.com/file/d/17gt3ahRh63_CxukkPQo58sMGRiVWDlxH/view?usp=sharing
 
 Então, mais do que um chatbot, o CareerAdvisor representa uma aplicação de IA em que eu procurei combinar **dados estruturados, processamento determinístico e inteligência artificial generativa**, mantendo o modelo dentro dos limites das informações realmente disponíveis.
 
 Esse é o principal objetivo do CareerAdvisor: **transformar dados de vagas em respostas úteis, sem abrir mão da confiabilidade.**
 
 Obrigada!
+
+Link do vídeo o Pitch: https://drive.google.com/file/d/17gt3ahRh63_CxukkPQo58sMGRiVWDlxH/view?usp=sharing
+
