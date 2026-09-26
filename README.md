@@ -204,8 +204,5 @@ Isso evita apresentar uma opinião ou conhecimento externo como se viesse do dat
 - upload de CSV;
 - comparação entre modelos locais.
 
-## Autora
-
-**Maria Eduarda Mueller**
-
+---
 Projeto desenvolvido como parte dos desafios da trilha **Bradesco Dados, Cibersegurança & GenAI — DIO**.
