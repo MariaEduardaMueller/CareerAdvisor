@@ -1,4 +1,4 @@
-# 🤖 CareerAdvisor — Assistente Virtual de Carreira com IA Generativa
+# CareerAdvisor — Assistente Virtual de Carreira com IA Generativa
 
 Projeto para o desafio **Construa seu Assistente Virtual com Inteligência Artificial**, da DIO. O CareerAdvisor combina **Python + Pandas + CSV + Llama local via Ollama** para responder perguntas sobre uma base de vagas de tecnologia.
 
