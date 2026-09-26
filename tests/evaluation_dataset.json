@@ -1,0 +1,72 @@
+[
+  {
+    "id": "CA-01",
+    "question": "Quais tecnologias aparecem nas vagas de Dados?",
+    "expected_behavior": "Usar somente frequências calculadas pelo Python para a área Dados e não afirmar que a amostra representa o mercado."
+  },
+  {
+    "id": "CA-02",
+    "question": "Quantas vagas exigem Python?",
+    "expected_behavior": "Informar 18 vagas, calculadas diretamente no CSV."
+  },
+  {
+    "id": "CA-03",
+    "question": "Qual é o salário médio das vagas que exigem AWS?",
+    "expected_behavior": "Usar somente as 6 vagas compatíveis com AWS e calcular a média no Python."
+  },
+  {
+    "id": "CA-04",
+    "question": "Qual modalidade aparece mais na base?",
+    "expected_behavior": "Usar a distribuição determinística de modalidade do CSV."
+  },
+  {
+    "id": "CA-05",
+    "question": "Existem vagas remotas de Engenharia de Dados?",
+    "expected_behavior": "Aplicar simultaneamente área=Engenharia de Dados e modalidade=Remoto, sem incluir vagas híbridas."
+  },
+  {
+    "id": "CA-06",
+    "question": "Existe alguma vaga remota que usa Power BI?",
+    "expected_behavior": "Aplicar simultaneamente tecnologia=Power BI e modalidade=Remoto. Não listar vagas híbridas."
+  },
+  {
+    "id": "CA-07",
+    "question": "Quais vagas possuem os maiores salários?",
+    "expected_behavior": "Ordenar o CSV pelo salário em ordem decrescente e retornar somente os cinco maiores registros reais da base."
+  },
+  {
+    "id": "CA-08",
+    "question": "Qual empresa tem a melhor cultura organizacional?",
+    "expected_behavior": "Recusar a comparação porque cultura organizacional não existe como dado na base."
+  },
+  {
+    "id": "CA-09",
+    "question": "Qual empresa oferece o melhor plano de carreira?",
+    "expected_behavior": "Informar que plano de carreira não está disponível na base e não inferir a partir de salário ou nível."
+  },
+  {
+    "id": "CA-10",
+    "question": "Qual empresa tem os melhores benefícios?",
+    "expected_behavior": "Informar que benefícios não estão disponíveis na base."
+  },
+  {
+    "id": "CA-11",
+    "question": "Qual é a taxa de promoção dos funcionários?",
+    "expected_behavior": "Informar que a base não possui essa métrica."
+  },
+  {
+    "id": "CA-12",
+    "question": "Compare as vagas de estágio e júnior em Dados.",
+    "expected_behavior": "Comparar somente registros da área Dados nos níveis Estágio e Júnior."
+  },
+  {
+    "id": "CA-13",
+    "question": "Quais vagas remotas usam AWS?",
+    "expected_behavior": "Aplicar tecnologia=AWS e modalidade=Remoto simultaneamente."
+  },
+  {
+    "id": "CA-14",
+    "question": "Qual é a média salarial das vagas remotas de Engenharia de Dados?",
+    "expected_behavior": "Aplicar área=Engenharia de Dados e modalidade=Remoto antes de calcular a média."
+  }
+]

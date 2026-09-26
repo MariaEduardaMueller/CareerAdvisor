@@ -1,0 +1,21 @@
+id,cargo,empresa,area,nivel,localizacao,modalidade,salario,tecnologias
+1,Estágio em Dados,DataLab,Dados,Estágio,Remoto,Remoto,1800,Python;SQL;Pandas;Power BI;Git
+2,Estágio em BI,Insight Tech,BI,Estágio,São Paulo - SP,Híbrido,1900,SQL;Power BI;Excel;Python
+3,Analista de Dados Júnior,Analytics Corp,Dados,Júnior,São Paulo - SP,Híbrido,4200,SQL;Python;Pandas;Power BI;Git
+4,Analista de Dados Júnior,Retail Data,Dados,Júnior,Remoto,Remoto,4500,SQL;Python;Excel;Power BI
+5,Engenheiro de Dados Júnior,CloudData,Engenharia de Dados,Júnior,São Paulo - SP,Híbrido,5200,Python;SQL;AWS;Spark;Docker;Git
+6,Engenheiro de Dados Júnior,DataFlow,Engenharia de Dados,Júnior,Remoto,Remoto,5600,Python;SQL;AWS;PySpark;Docker
+7,Cientista de Dados Júnior,ML Solutions,Ciência de Dados,Júnior,São Paulo - SP,Presencial,5800,Python;Pandas;Scikit-learn;SQL;Machine Learning
+8,Cientista de Dados Júnior,AI Labs,Ciência de Dados,Júnior,Remoto,Remoto,6100,Python;SQL;Pandas;TensorFlow;Machine Learning
+9,Estágio em Ciência de Dados,Predictive,Ciência de Dados,Estágio,Remoto,Remoto,2000,Python;Pandas;SQL;Scikit-learn
+10,Analista de BI,Business Vision,BI,Pleno,São Paulo - SP,Híbrido,6800,SQL;Power BI;DAX;Excel;Python
+11,Analista de BI Júnior,Dashboards BR,BI,Júnior,Curitiba - PR,Híbrido,4300,Power BI;SQL;DAX;Excel
+12,Analista de Dados Pleno,Metrics,Dados,Pleno,Remoto,Remoto,7500,SQL;Python;Power BI;Pandas;Git
+13,Engenheiro de Dados Pleno,CloudWorks,Engenharia de Dados,Pleno,São Paulo - SP,Híbrido,9000,Python;Spark;AWS;SQL;Docker;Airflow
+14,Engenheiro de Dados Pleno,PipelineX,Engenharia de Dados,Pleno,Remoto,Remoto,9500,Python;PySpark;AWS;SQL;Airflow;Docker
+15,Analista de Dados,FinData,Dados,Pleno,Porto Alegre - RS,Presencial,7200,SQL;Python;Excel;Power BI
+16,Estágio em Engenharia de Dados,BigData Lab,Engenharia de Dados,Estágio,Remoto,Remoto,2100,Python;SQL;AWS;Git
+17,Analista de Dados Júnior,LogiData,Dados,Júnior,Porto Alegre - RS,Híbrido,4400,SQL;Python;Power BI;Excel;Git
+18,Cientista de Dados Pleno,Forecast AI,Ciência de Dados,Pleno,Remoto,Remoto,9800,Python;SQL;Pandas;PyTorch;Machine Learning
+19,Analista de BI Júnior,Retail BI,BI,Júnior,Remoto,Remoto,4600,Power BI;SQL;Excel;DAX
+20,Engenheiro de Dados Júnior,DataCloud,Engenharia de Dados,Júnior,Curitiba - PR,Híbrido,5400,Python;SQL;AWS;Spark;Git

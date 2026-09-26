@@ -1,0 +1,133 @@
+Base avaliada: 20 vagas
+Filtros, contagens, médias e ordenações são executados por Python/Pandas.
+
+Caso CA-01: Quais tecnologias aparecem nas vagas de Dados?
+Esperado: Usar somente frequências calculadas pelo Python para a área Dados e não afirmar que a amostra representa o mercado.
+--------------------------------------------------------------------------------
+Frequência de tecnologias na área 'Dados' (calculada pelo Python):
+- Python: 16 vagas (100.0%)
+- SQL: 16 vagas (100.0%)
+- Pandas: 7 vagas (43.8%)
+- Git: 7 vagas (43.8%)
+- Power BI: 6 vagas (37.5%)
+- AWS: 6 vagas (37.5%)
+- Docker: 4 vagas (25.0%)
+- Excel: 3 vagas (18.8%)
+- Spark: 3 vagas (18.8%)
+- Machine Learning: 3 vagas (18.8%)
+Vagas compatíveis: 6
+- Estágio em Dados | DataLab | Dados | Estágio | Remoto | R$ 1.800,00 | Python;SQL;Pandas;Power BI;Git
+- Analista de Dados Júnior | Analytics Corp | Dados | Júnior | Híbrido | R$ 4.200,00 | SQL;Python;Pandas;Power BI;Git
+- Analista de Dados Júnior | Retail Data | Dados | Júnior | Remoto | R$ 4.500,00 | SQL;Python;Excel;Power BI
+- Analista de Dados Pleno | Metrics | Dados | Pleno | Remoto | R$ 7.500,00 | SQL;Python;Power BI;Pandas;Git
+- Analista de Dados | FinData | Dados | Pleno | Presencial | R$ 7.200,00 | SQL;Python;Excel;Power BI
+- Analista de Dados Júnior | LogiData | Dados | Júnior | Híbrido | R$ 4.400,00 | SQL;Python;Power BI;Excel;Git
+
+Caso CA-02: Quantas vagas exigem Python?
+Esperado: Informar 18 vagas, calculadas diretamente no CSV.
+--------------------------------------------------------------------------------
+Quantidade de vagas compatíveis: 18
+Vagas compatíveis: 18
+- Estágio em Dados | DataLab | Dados | Estágio | Remoto | R$ 1.800,00 | Python;SQL;Pandas;Power BI;Git
+- Estágio em BI | Insight Tech | BI | Estágio | Híbrido | R$ 1.900,00 | SQL;Power BI;Excel;Python
+- Analista de Dados Júnior | Analytics Corp | Dados | Júnior | Híbrido | R$ 4.200,00 | SQL;Python;Pandas;Power BI;Git
+- Analista de Dados Júnior | Retail Data | Dados | Júnior | Remoto | R$ 4.500,00 | SQL;Python;Excel;Power BI
+- Engenheiro de Dados Júnior | CloudData | Engenharia de Dados | Júnior | Híbrido | R$ 5.200,00 | Python;SQL;AWS;Spark;Docker;Git
+- Engenheiro de Dados Júnior | DataFlow | Engenharia de Dados | Júnior | Remoto | R$ 5.600,00 | Python;SQL;AWS;PySpark;Docker
+- Cientista de Dados Júnior | ML Solutions | Ciência de Dados | Júnior | Presencial | R$ 5.800,00 | Python;Pandas;Scikit-learn;SQL;Machine Learning
+- Cientista de Dados Júnior | AI Labs | Ciência de Dados | Júnior | Remoto | R$ 6.100,00 | Python;SQL;Pandas;TensorFlow;Machine Learning
+
+Caso CA-03: Qual é o salário médio das vagas que exigem AWS?
+Esperado: Usar somente as 6 vagas compatíveis com AWS e calcular a média no Python.
+--------------------------------------------------------------------------------
+Salário médio das 6 vagas compatíveis: R$ 6.133,33
+Vagas compatíveis: 6
+- Engenheiro de Dados Júnior | CloudData | Engenharia de Dados | Júnior | Híbrido | R$ 5.200,00 | Python;SQL;AWS;Spark;Docker;Git
+- Engenheiro de Dados Júnior | DataFlow | Engenharia de Dados | Júnior | Remoto | R$ 5.600,00 | Python;SQL;AWS;PySpark;Docker
+- Engenheiro de Dados Pleno | CloudWorks | Engenharia de Dados | Pleno | Híbrido | R$ 9.000,00 | Python;Spark;AWS;SQL;Docker;Airflow
+- Engenheiro de Dados Pleno | PipelineX | Engenharia de Dados | Pleno | Remoto | R$ 9.500,00 | Python;PySpark;AWS;SQL;Airflow;Docker
+- Estágio em Engenharia de Dados | BigData Lab | Engenharia de Dados | Estágio | Remoto | R$ 2.100,00 | Python;SQL;AWS;Git
+- Engenheiro de Dados Júnior | DataCloud | Engenharia de Dados | Júnior | Híbrido | R$ 5.400,00 | Python;SQL;AWS;Spark;Git
+
+Caso CA-04: Qual modalidade aparece mais na base?
+Esperado: Usar a distribuição determinística de modalidade do CSV.
+--------------------------------------------------------------------------------
+Distribuição por modalidade na base: {'Remoto': 10, 'Híbrido': 8, 'Presencial': 2}
+
+Caso CA-05: Existem vagas remotas de Engenharia de Dados?
+Esperado: Aplicar simultaneamente área=Engenharia de Dados e modalidade=Remoto, sem incluir vagas híbridas.
+--------------------------------------------------------------------------------
+Quantidade de vagas compatíveis: 3
+Vagas compatíveis: 3
+- Engenheiro de Dados Júnior | DataFlow | Engenharia de Dados | Júnior | Remoto | R$ 5.600,00 | Python;SQL;AWS;PySpark;Docker
+- Engenheiro de Dados Pleno | PipelineX | Engenharia de Dados | Pleno | Remoto | R$ 9.500,00 | Python;PySpark;AWS;SQL;Airflow;Docker
+- Estágio em Engenharia de Dados | BigData Lab | Engenharia de Dados | Estágio | Remoto | R$ 2.100,00 | Python;SQL;AWS;Git
+
+Caso CA-06: Existe alguma vaga remota que usa Power BI?
+Esperado: Aplicar simultaneamente tecnologia=Power BI e modalidade=Remoto. Não listar vagas híbridas.
+--------------------------------------------------------------------------------
+Filtro de modalidade aplicado: Remoto.
+Vagas compatíveis: 1
+- Analista de BI Júnior | Retail BI | BI | Júnior | Remoto | R$ 4.600,00 | Power BI;SQL;Excel;DAX
+
+Caso CA-07: Quais vagas possuem os maiores salários?
+Esperado: Ordenar o CSV pelo salário em ordem decrescente e retornar somente os cinco maiores registros reais da base.
+--------------------------------------------------------------------------------
+TOP 5 SALÁRIOS DA BASE (calculado pelo Python; não é ranking de empresas):
+- Cientista de Dados Pleno | Forecast AI | Ciência de Dados | Pleno | Remoto | R$ 9.800,00 | Python;SQL;Pandas;PyTorch;Machine Learning
+- Engenheiro de Dados Pleno | PipelineX | Engenharia de Dados | Pleno | Remoto | R$ 9.500,00 | Python;PySpark;AWS;SQL;Airflow;Docker
+- Engenheiro de Dados Pleno | CloudWorks | Engenharia de Dados | Pleno | Híbrido | R$ 9.000,00 | Python;Spark;AWS;SQL;Docker;Airflow
+- Analista de Dados Pleno | Metrics | Dados | Pleno | Remoto | R$ 7.500,00 | SQL;Python;Power BI;Pandas;Git
+- Analista de Dados | FinData | Dados | Pleno | Presencial | R$ 7.200,00 | SQL;Python;Excel;Power BI
+
+Caso CA-08: Qual empresa tem a melhor cultura organizacional?
+Esperado: Recusar a comparação porque cultura organizacional não existe como dado na base.
+--------------------------------------------------------------------------------
+INFORMAÇÃO INDISPONÍVEL: a base não contém dados sobre esse critério.
+Não é permitido inferir ou comparar empresas com base em salário, cargo ou tecnologia.
+
+Caso CA-09: Qual empresa oferece o melhor plano de carreira?
+Esperado: Informar que plano de carreira não está disponível na base e não inferir a partir de salário ou nível.
+--------------------------------------------------------------------------------
+INFORMAÇÃO INDISPONÍVEL: a base não contém dados sobre esse critério.
+Não é permitido inferir ou comparar empresas com base em salário, cargo ou tecnologia.
+
+Caso CA-10: Qual empresa tem os melhores benefícios?
+Esperado: Informar que benefícios não estão disponíveis na base.
+--------------------------------------------------------------------------------
+INFORMAÇÃO INDISPONÍVEL: a base não contém dados sobre esse critério.
+Não é permitido inferir ou comparar empresas com base em salário, cargo ou tecnologia.
+
+Caso CA-11: Qual é a taxa de promoção dos funcionários?
+Esperado: Informar que a base não possui essa métrica.
+--------------------------------------------------------------------------------
+INFORMAÇÃO INDISPONÍVEL: a base não contém dados sobre esse critério.
+Não é permitido inferir ou comparar empresas com base em salário, cargo ou tecnologia.
+
+Caso CA-12: Compare as vagas de estágio e júnior em Dados.
+Esperado: Comparar somente registros da área Dados nos níveis Estágio e Júnior.
+--------------------------------------------------------------------------------
+Vagas compatíveis: 4
+- Estágio em Dados | DataLab | Dados | Estágio | Remoto | R$ 1.800,00 | Python;SQL;Pandas;Power BI;Git
+- Analista de Dados Júnior | Analytics Corp | Dados | Júnior | Híbrido | R$ 4.200,00 | SQL;Python;Pandas;Power BI;Git
+- Analista de Dados Júnior | Retail Data | Dados | Júnior | Remoto | R$ 4.500,00 | SQL;Python;Excel;Power BI
+- Analista de Dados Júnior | LogiData | Dados | Júnior | Híbrido | R$ 4.400,00 | SQL;Python;Power BI;Excel;Git
+
+Caso CA-13: Quais vagas remotas usam AWS?
+Esperado: Aplicar tecnologia=AWS e modalidade=Remoto simultaneamente.
+--------------------------------------------------------------------------------
+Filtro de modalidade aplicado: Remoto.
+Vagas compatíveis: 3
+- Engenheiro de Dados Júnior | DataFlow | Engenharia de Dados | Júnior | Remoto | R$ 5.600,00 | Python;SQL;AWS;PySpark;Docker
+- Engenheiro de Dados Pleno | PipelineX | Engenharia de Dados | Pleno | Remoto | R$ 9.500,00 | Python;PySpark;AWS;SQL;Airflow;Docker
+- Estágio em Engenharia de Dados | BigData Lab | Engenharia de Dados | Estágio | Remoto | R$ 2.100,00 | Python;SQL;AWS;Git
+
+Caso CA-14: Qual é a média salarial das vagas remotas de Engenharia de Dados?
+Esperado: Aplicar área=Engenharia de Dados e modalidade=Remoto antes de calcular a média.
+--------------------------------------------------------------------------------
+Salário médio das 3 vagas compatíveis: R$ 5.733,33
+Filtro de modalidade aplicado: Remoto.
+Vagas compatíveis: 3
+- Engenheiro de Dados Júnior | DataFlow | Engenharia de Dados | Júnior | Remoto | R$ 5.600,00 | Python;SQL;AWS;PySpark;Docker
+- Engenheiro de Dados Pleno | PipelineX | Engenharia de Dados | Pleno | Remoto | R$ 9.500,00 | Python;PySpark;AWS;SQL;Airflow;Docker
+- Estágio em Engenharia de Dados | BigData Lab | Engenharia de Dados | Estágio | Remoto | R$ 2.100,00 | Python;SQL;AWS;Git
